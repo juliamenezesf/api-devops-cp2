@@ -13,7 +13,7 @@ Este projeto consiste em uma API REST desenvolvida em Node.js utilizando Express
 
 ## 🐳 Imagens 
 
-- postgres:latest (Docker Hub)
+- postgres:15 (Docker Hub)
 - api custom (build local)
   
 ---
