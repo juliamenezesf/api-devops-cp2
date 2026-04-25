@@ -45,11 +45,12 @@ docker network create minha-rede
 ### 2. Subir o banco de dados
 
 ```bash
-docker run -d --name db-rm565568
---network minha-rede
--e POSTGRES_PASSWORD=postgres123
--e POSTGRES_DB=appdb
--p 5432:5432
+docker run -d --name db-rm565568 \
+--network minha-rede \
+-v postgres_data:/var/lib/postgresql/data \
+-e POSTGRES_PASSWORD=postgres123 \
+-e POSTGRES_DB=appdb \
+-p 5432:5432 \
 postgres
 ```
 
