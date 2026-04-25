@@ -86,8 +86,7 @@ Body:
 ```json
 {
 "nome": "Usuario1",
-"email": "usuario1@email.com
-"
+"email": "usuario1@email.com"
 }
 ```
 
