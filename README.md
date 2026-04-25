@@ -117,6 +117,15 @@ DELETE `/usuarios/:id`
 
 ---
 
+## 📌 Endpoints
+
+POST /usuarios  
+GET /usuarios  
+PUT /usuarios/:id  
+DELETE /usuarios/:id  
+
+---
+
 ## 🧪 Testes
 A API pode ser testada utilizando ferramentas como:
 - Insomnia
