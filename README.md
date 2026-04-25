@@ -5,12 +5,17 @@ Este projeto consiste em uma API REST desenvolvida em Node.js utilizando Express
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias
 - Node.js
 - Express
 - PostgreSQL
 - Docker
 
+## 🐳 Imagens 
+
+- postgres:latest (Docker Hub)
+- api custom (build local)
+  
 ---
 
 ## ⚙️ Configuração
